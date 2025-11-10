@@ -19,12 +19,12 @@ Dataset:
 
 Directory layout:
 
-- data/
+- data/      # Note that this will be created during data preparation
   - raw/                 # raw volume saved as .npy
   - splits/              # train/val/test split JSON
   - augmented/           # saved augmented patch datasets (npz)
   - samples/             # a few saved images (aug vs orig)
-- runs/
+- runs/      # Note that this will be created during the training of models
   - <model>/<timestamp>/ # checkpoints and logs
 - src/
   - data/
