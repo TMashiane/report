@@ -1,0 +1,28 @@
+== Evaluate unet3d ==
+Evaluating:   0%|          | 0/13 [00:00<?, ?it/s]Evaluating:   8%|▊         | 1/13 [00:01<00:19,  1.59s/it]Evaluating:  15%|█▌        | 2/13 [00:02<00:10,  1.06it/s]Evaluating:  23%|██▎       | 3/13 [00:02<00:07,  1.36it/s]Evaluating:  31%|███       | 4/13 [00:03<00:05,  1.59it/s]Evaluating:  38%|███▊      | 5/13 [00:03<00:04,  1.75it/s]Evaluating:  46%|████▌     | 6/13 [00:03<00:03,  2.10it/s]Evaluating:  54%|█████▍    | 7/13 [00:04<00:02,  2.40it/s]Evaluating:  62%|██████▏   | 8/13 [00:04<00:01,  2.65it/s]Evaluating:  69%|██████▉   | 9/13 [00:04<00:01,  2.85it/s]Evaluating:  77%|███████▋  | 10/13 [00:04<00:00,  3.00it/s]Evaluating:  85%|████████▍ | 11/13 [00:05<00:00,  3.12it/s]Evaluating:  92%|█████████▏| 12/13 [00:05<00:00,  3.20it/s]Evaluating: 100%|██████████| 13/13 [00:05<00:00,  3.80it/s]Evaluating: 100%|██████████| 13/13 [00:05<00:00,  2.28it/s]
+Evaluation results:
+- MSE    : 0.000168
+- RMSE   : 0.012911
+- PSNR   : 37.8093 dB
+- SSIM   : 0.9651
+- MS-SSIM: 0.9921
+Saved metrics JSON: runs/unet3d/metrics.json
+== Evaluate resattunet3d ==
+Evaluating:   0%|          | 0/13 [00:00<?, ?it/s]Evaluating:   8%|▊         | 1/13 [00:00<00:11,  1.07it/s]Evaluating:  15%|█▌        | 2/13 [00:01<00:07,  1.44it/s]Evaluating:  23%|██▎       | 3/13 [00:01<00:06,  1.61it/s]Evaluating:  31%|███       | 4/13 [00:02<00:05,  1.71it/s]Evaluating:  38%|███▊      | 5/13 [00:03<00:04,  1.77it/s]Evaluating:  46%|████▌     | 6/13 [00:03<00:03,  2.02it/s]Evaluating:  54%|█████▍    | 7/13 [00:03<00:02,  2.22it/s]Evaluating:  62%|██████▏   | 8/13 [00:04<00:02,  2.36it/s]Evaluating:  69%|██████▉   | 9/13 [00:04<00:01,  2.48it/s]Evaluating:  77%|███████▋  | 10/13 [00:04<00:01,  2.56it/s]Evaluating:  85%|████████▍ | 11/13 [00:05<00:00,  2.61it/s]Evaluating:  92%|█████████▏| 12/13 [00:05<00:00,  2.65it/s]Evaluating: 100%|██████████| 13/13 [00:05<00:00,  3.14it/s]Evaluating: 100%|██████████| 13/13 [00:05<00:00,  2.25it/s]
+Evaluation results:
+- MSE    : 0.000103
+- RMSE   : 0.010098
+- PSNR   : 39.9603 dB
+- SSIM   : 0.9756
+- MS-SSIM: 0.9945
+Saved metrics JSON: runs/resattunet3d/metrics.json
+== Evaluate vit3d ==
+Evaluating:   0%|          | 0/13 [00:00<?, ?it/s]Evaluating:   8%|▊         | 1/13 [00:00<00:07,  1.71it/s]Evaluating:  15%|█▌        | 2/13 [00:00<00:04,  2.45it/s]Evaluating:  23%|██▎       | 3/13 [00:01<00:03,  2.80it/s]Evaluating:  31%|███       | 4/13 [00:01<00:02,  3.08it/s]Evaluating:  38%|███▊      | 5/13 [00:01<00:02,  3.21it/s]Evaluating:  46%|████▌     | 6/13 [00:01<00:01,  4.13it/s]Evaluating:  54%|█████▍    | 7/13 [00:01<00:01,  5.04it/s]Evaluating:  62%|██████▏   | 8/13 [00:02<00:00,  5.89it/s]Evaluating:  69%|██████▉   | 9/13 [00:02<00:00,  6.63it/s]Evaluating:  77%|███████▋  | 10/13 [00:02<00:00,  7.25it/s]Evaluating:  85%|████████▍ | 11/13 [00:02<00:00,  7.76it/s]Evaluating:  92%|█████████▏| 12/13 [00:02<00:00,  8.13it/s]Evaluating: 100%|██████████| 13/13 [00:02<00:00,  5.08it/s]
+Evaluation results:
+- MSE    : 0.002124
+- RMSE   : 0.046012
+- PSNR   : 26.7569 dB
+- SSIM   : 0.6825
+- MS-SSIM: 0.8636
+Saved metrics JSON: runs/vit3d/metrics.json
+Evaluation complete. Check runs/*/metrics.json for results.
