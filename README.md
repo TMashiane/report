@@ -17,7 +17,10 @@ Pipeline:
 Dataset:
 - Orange Basin provided as SEG/SEGY file (or .npy). Target volume dims ~ 560 x 773 x 805 (inline x crossline x time).
 
+Before proceeding, put everything in a folder called "orange_basin_reconstruction"
+
 Directory layout:
+orange_basin_reconstruction/
 
 - data/      # Note that this will be created during data preparation
   - raw/                 # raw volume saved as .npy
