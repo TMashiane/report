@@ -19,7 +19,6 @@ Dataset:
 
 Directory layout:
 
-orange_basin_reconstruction/
 - data/
   - raw/                 # raw volume saved as .npy
   - splits/              # train/val/test split JSON
